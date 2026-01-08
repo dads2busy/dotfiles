@@ -1,6 +1,12 @@
 # Sensitive files - DO NOT COMMIT
 r/.Renviron
 
+# Shell secrets (but allow templates)
+zsh/.zshrc.secrets
+bash/.bashrc.secrets
+**/secrets.sh
+**/secrets.env
+
 # macOS
 .DS_Store
 .AppleDouble
@@ -30,14 +36,20 @@ tmp/
 temp/
 *.tmp
 
-# API Keys and secrets
+# API Keys and secrets (specific patterns)
 **/secrets/
-**/*secret*
-**/*key*.txt
-**/*token*.txt
+**/*_key.txt
+**/*_token.txt
+**/*_secret.txt
+**/credentials.*
+!**/credentials.template
+!**/*.template
 
 # Local environment overrides
 *.local
 .env
 .env.local
-zsh/.zshrc.secrets
+
+# Allow template files explicitly
+!**/*.template
+!**/template.*
