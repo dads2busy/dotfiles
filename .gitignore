@@ -1,0 +1,42 @@
+# Sensitive files - DO NOT COMMIT
+r/.Renviron
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Backup files
+*.backup
+*.bak
+*~
+*.swp
+*.swo
+
+# History files
+.zsh_history
+.bash_history
+.python_history
+*_history
+
+# Compiled files
+*.zwc
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# API Keys and secrets
+**/secrets/
+**/*secret*
+**/*key*.txt
+**/*token*.txt
+
+# Local environment overrides
+*.local
+.env
+.env.local

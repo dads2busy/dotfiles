@@ -1,0 +1,41 @@
+# R Environment Variables Template
+# Copy this file to .Renviron and fill in your actual values
+# This template shows the structure without exposing real credentials
+
+# R Libraries
+R_LIBS_USER=~/R/goolf/4.3
+
+# API Keys (Replace with your actual keys)
+CENSUS_API_KEY='your_census_api_key_here'
+GITHUB_GRAPHQL_TOKEN='your_github_token_here'
+GITHUB_PAT='your_github_pat_here'
+GOOGLE_API_KEY='your_google_api_key_here'
+GOOGLEGEOCODE_API_KEY='your_google_geocode_key_here'
+GEOCODIO_API_KEY='your_geocodio_key_here'
+HERE_API_KEY='your_here_api_key_here'
+NASS_KEY='your_nass_key_here'
+BEA_API_KEY='your_bea_key_here'
+
+# Database Credentials
+db_usr='your_username'
+db_pwd='your_password'
+
+# USPS API
+USPS_WEBAPI_USERNAME='your_usps_username'
+USPS_WEBAPI_PASSWORD='your_usps_password'
+
+# AWS Credentials
+AWS_ACCESS_KEY_ID='your_aws_access_key'
+AWS_SECRET_ACCESS_KEY='your_aws_secret_key'
+
+# ORCID
+ORCID_TOKEN='your_orcid_token'
+
+# Custom Paths
+TIGRIS_CACHE_DIR='/path/to/tigris/cache'
+TMPDIR='/path/to/temp'
+TMP='/path/to/temp'
+TEMP='/path/to/temp'
+
+# Other Settings
+DOWNLOAD_STATIC_LIBV8=1
