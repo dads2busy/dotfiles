@@ -40,3 +40,4 @@ temp/
 *.local
 .env
 .env.local
+zsh/.zshrc.secrets
